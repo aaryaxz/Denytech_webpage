@@ -1,0 +1,210 @@
+@font-face {
+    font-family: gilroy;
+    src: url('/Gilroy-Regular/Gilroy-Regular.ttf');
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 1vw 2vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 50px;
+}
+
+.parts {
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+#Navpart1 h3 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#Navpart1 h3:hover {
+    background-color: black;
+    color: white;
+}
+
+#Navpart1 i {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+#Navpart1 i:hover {
+    background-color: black;
+    color: white;
+}
+
+#Navpart2 {
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+#Navpart2 i {
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px 8px;
+    font-size: 20px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    margin-right: 10px;
+}
+
+#Navpart2 h1 {
+    text-transform: uppercase;
+}
+
+#Navpart3 button {
+    border-radius: 20px;
+    padding: 7px 15px;
+}
+
+#Navpart3 #logbtn {
+    border: 1px solid black;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#Navpart3 #signbtn {
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(255, 95, 9);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 85%;
+}
+
+#title h1 {
+    text-transform: uppercase;
+    font-size: 8vw;
+    letter-spacing: 0.5rem;
+    font-weight: 900;
+}
+
+#images img {
+    height: 430px;
+    width: 370px;
+    border-radius: 20px;
+    position: absolute;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+
+#img-1 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img-2 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img-3 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img-4 {
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+#Ftpart1 {
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#Ftpart1 div {
+    /* border: 1px solid green; */
+    background-color: rgb(255, 89, 0);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+#Ftpart1 p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#Ftpart2 div {
+    position: relative;
+    top: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 110px;
+    height: 57px;
+    border-radius: 55px 55px 0 0;
+    border-bottom: none;
+}
+
+div img {
+    position: relative;
+    left: 30px;
+    top: 12px;
+    height: 40px;
+}
+
+/* #Ftpart3 {
+    border: 1px solid green;
+} */
+#Ftpart3 i {
+    font-size: 30px;
+    color: rgb(57, 56, 56);
+}
+
+#Ftpart3 .yt-icon {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#Ftpart3 .ig-icon {
+    margin-left: 20px;
+}
+
+#Ftpart3 p {
+    /* border: 1px solid black; */
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
